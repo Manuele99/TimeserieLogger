@@ -1,0 +1,35 @@
+{
+  "name": "TimeserieLogger",
+  "version": "1.0.0",
+  "authors": {
+    "name": "Manuele Pola",
+    "email": "manuele@visup.pt"
+  },
+  "description": "Data buffer library for ESP32 platform",
+  "keywords": [
+    "data-collection",
+    "esp8266",
+    "esp32",
+    "data",
+    "logging",
+    "logger",
+    "data-buffer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manuele99/TimeserieLogger"
+  },
+  "licence": "LGPL-2.1-or-later",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ],
+  "build": {
+    "libLDFMode": "deep"
+  },
+  "examples": [
+  ]
+}

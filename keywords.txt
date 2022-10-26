@@ -1,0 +1,7 @@
+TimeserieLogger	KEYWORD1
+
+begin	            KEYWORD2
+addValue	        KEYWORD2
+dropRecords         KEYWORD2
+getTs	            KEYWORD2
+syncFs              KEYWORD2
