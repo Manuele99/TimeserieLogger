@@ -1,9 +1,9 @@
 {
   "name": "TimeserieLogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": {
     "name": "Manuele Pola",
-    "email": "manuele@visup.pt"
+    "email": "manuele@visup.it"
   },
   "description": "Data buffer library for ESP32 platform",
   "keywords": [
