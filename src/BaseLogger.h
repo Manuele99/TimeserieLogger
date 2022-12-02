@@ -25,6 +25,7 @@ public:
 
     explicit BaseLogger(const char *name, FS &fs = LittleFS) : fs(fs), filePath("/" + String(name)) {
         recordsBuffer = (records *) calloc(1, sizeof(records));
+        recordsBuffer->name = name;
         compactRecordSize = sizeof(uint32_t) + sizeof(T);
     };
 
